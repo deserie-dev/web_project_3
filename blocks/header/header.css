@@ -7,10 +7,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 984px;
   min-height: 44px;
   max-width: 984px;
   padding: 34px 0px 0px 0px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 @media screen and (max-width: 1024px) {

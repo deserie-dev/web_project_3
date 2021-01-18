@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .photo-grid {
+  .header__logo {
     width: 156px;
     height: 36px;
     margin: 20px 0px 0px 16px;

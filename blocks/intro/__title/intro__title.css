@@ -4,6 +4,18 @@
   font-size: 54px;
   line-height: 58px;
   color: #ffffff;
-  margin: 114px auto 0px auto;
+  margin: 92px auto 0px auto;
   padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    max-width: 288px;
+  }
 }
