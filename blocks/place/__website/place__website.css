@@ -1,0 +1,5 @@
+.place__website {
+  position: relative;
+  align-self: flex-end;
+  grid-area: place__website;
+}
