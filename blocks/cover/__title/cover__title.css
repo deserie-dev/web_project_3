@@ -8,3 +8,11 @@
   padding: 0px;
   z-index: 2;
 }
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    max-width: calc(100% - 32px);
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

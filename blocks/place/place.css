@@ -20,10 +20,10 @@
     "place__image place__paragraph";
 }
 
-/* max-width: 984px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 40px;
-  grid-row-gap: 48px;
-  margin: 0 0 49px 0;
-  padding: 0;*/
+@media screen and (max-width: 320px) {
+  .place {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+  }
+}
