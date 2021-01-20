@@ -2,6 +2,7 @@
 @import url("./__lang-link/_active/header__lang-link_active.css");
 @import url("./__lang-links/header__lang-links.css");
 @import url("./__logo/header__logo.css");
+@import url("./__list-iem/header__list-item.css");
 
 .header {
   display: flex;
@@ -27,7 +28,7 @@
 
 @media screen and (max-width: 320px) {
   .header {
-    max-width: calc(100% - 32px);
+    width: calc(100% - 32px);
     min-height: 36px;
   }
 }

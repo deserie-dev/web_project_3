@@ -1,6 +1,8 @@
 @import url(./__author/footer__author.css);
 @import url(./__link/footer__link.css);
 @import url(./__items/footer__link-items.css);
+@import url(./__links/footer__links.css);
+@import url(./__links-item/footer__links-item.css);
 
 .footer {
   position: relative;

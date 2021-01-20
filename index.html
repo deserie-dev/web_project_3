@@ -11,18 +11,18 @@
 
     <header class="header">
       <img class="header__logo" src="./images/logo.svg" alt="Logo">
-      <div class="header__lang-links">
-        <a class="header__lang-link header__lang-link_active" href="#" target="_self">En</a>
-        <a class="header__lang-link" href="#" target="_self">Es</a>
-      </div>
+      <ul class="header__lang-links">
+        <li class="header__list-item"><a class="header__lang-link header__lang-link_active" href="#" target="_self">En</a></li>
+        <li class="header__list-item"><a class="header__lang-link" href="#" target="_self">Es</a></li>
+      </ul>
     </header>
 
     <main>
       <section class="lead">
         <h1 class="lead__title">From Portland to Portland</h1>
         <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-        <img class="lead__image" src="./images/lead-mountains.jpg" alt="A picture of mountains">
-        <p class="lead__caption">YOUR JOURNEY STARTS HERE</p>
+        <img class="lead__image" src="./images/lead-mountains.jpg" alt="Mountains">
+        <p class="lead__caption">your journey starts here</p>
       </section>
 
       <section class="intro">
@@ -65,7 +65,7 @@
           <img class="place__image" src="./images/place-maine.jpg" alt="Maine">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_self">global.llbean.com</a>
+            <a class="place__link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_blank">global.llbean.com</a>
           </div>
           <div class="place__content">
             <p class="place__paragraph">
@@ -86,7 +86,7 @@
           <img class="place__image" src="./images/place-new-hampshire.jpg" alt="New Hampshire">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://www.timberland.com/timberlandpro.html" target="_self">timberland.com</a>
+            <a class="place__link" href="https://www.timberland.com/timberlandpro.html" target="_blank">timberland.com</a>
           </div>
           <div class="place__content">
             <p class="place__paragraph">
@@ -109,7 +109,7 @@
           <img class="place__image" src="./images/place-new-york.jpg" alt="New York">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://www.ge.com/about-us" target="_self">ge.com</a>
+            <a class="place__link" href="https://www.ge.com/about-us" target="_blank">ge.com</a>
           </div>
           <div class="place__content">
             <p class="place__paragraph">
@@ -130,7 +130,7 @@
           <img class="place__image" src="./images/place-pennsylvania.jpg" alt="Pennsylvania">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://www.fws.gov/refuge/erie" target="_self">fws.gov</a>
+            <a class="place__link" href="https://www.fws.gov/refuge/erie" target="_blank">fws.gov</a>
           </div>
           <div class="place__content">
             <p class="place__paragraph">
@@ -154,7 +154,7 @@
           <img class="place__image" src="./images/place-ohio.jpg" alt="Ohio">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://www.cedarpoint.com" target="_self">cedarpoint.com</a>
+            <a class="place__link" href="https://www.cedarpoint.com" target="_blank">cedarpoint.com</a>
           </div>
           <div class="place__content">
             <p class="place__paragraph">
@@ -173,7 +173,7 @@
       </section>
 
       <section class="cover">
-        <a class="cover__link" href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_self">
+        <a class="cover__link" href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_blank">
           <h2 class="cover__title">Historic Route 66</h2>
           <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
         </a>
@@ -182,9 +182,11 @@
 
     <footer class="footer">
       <nav class="footer__items">
-        <a class="footer__link" href="https://yandex.com/maps" target="_self">Maps</a>
-        <a class="footer__link" href="https://yandex.com/weather/moscow" target="_self">Weather</a>
-        <a class="footer__link" href="https://calendar.yandex.ru" target="_self">Calendar</a>
+        <ul class="footer__links">
+          <li class="footer__links-item"><a class="footer__link" href="https://yandex.com/maps" target="_blank">Maps</a></li>
+          <li class="footer__links-item"><a class="footer__link" href="https://yandex.com/weather/moscow" target="_blank">Weather</a></li>
+          <li class="footer__links-item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Calendar</a></li>
+        </ul>  
       </nav>
       <p class="footer__author">&copy; 2021. Deserie Murembeni</p>
     </footer>
