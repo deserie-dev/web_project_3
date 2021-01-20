@@ -19,7 +19,6 @@
 @media screen and (max-width: 768px) {
   .lead__title {
     max-width: calc(100% - 48px);
-    margin: 50px auto 32px auto;
   }
 }
 
