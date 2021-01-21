@@ -9,8 +9,9 @@
 .place {
   display: grid;
   max-width: 100%;
+  /*max-width: 984px;*/
   margin: 80px auto 0px auto;
-  padding: 0px;
+  padding: 0px 0px 80px 0px;
   grid-template-columns: 1fr auto;
   grid-template-rows: repeat(2, auto);
   column-gap: 40px;
@@ -20,11 +21,37 @@
     "place__image place__paragraph";
 }
 
+.place:last-of-type {
+  padding: 0px;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+    /*width: calc(100% - 96px);*/
+    margin-top: 92px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    /*width: calc(100% - 48px);*/
+    margin-top: 88px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     margin-top: 64px;
     width: 100%;
+    /*max-width: 320px;*/
+    padding: 0px 0px 49px 0px;
+  }
+  .place:last-of-type {
+    padding: 0px;
   }
 }

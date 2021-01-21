@@ -1,6 +1,7 @@
 .place__image {
   max-width: 460px;
   max-height: 460px;
+  width: 100%;
   grid-area: place__image;
 }
 
@@ -15,7 +16,6 @@
   .place__image {
     max-width: 340px;
     max-height: 340px;
-    margin: 0px;
   }
 }
 
@@ -23,6 +23,5 @@
   .place__image {
     max-width: 320px;
     max-height: 320px;
-    padding: 0px;
   }
 }
