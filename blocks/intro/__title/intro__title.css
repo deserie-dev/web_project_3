@@ -4,7 +4,7 @@
   font-size: 54px;
   line-height: 58px;
   color: #ffffff;
-  margin: 0px auto 0px auto;
+  margin: 0px;
   padding: 0px;
 }
 
@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .intro__title {
     max-width: 288px;
     font-size: 32px;
