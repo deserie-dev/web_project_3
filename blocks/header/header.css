@@ -7,35 +7,29 @@
 .header {
   display: flex;
   justify-content: space-between;
-  height: 44px;
-  width: 984px;
+  align-items: center;
   padding-top: 34px;
-  margin-left: 148px;
-  margin-right: 148px;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 96px);
+  width: 984px;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    margin-left: 48px;
-    margin-right: 48px;
-    width: 928px;
+    width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    margin-left: 24px;
-    margin-right: 24px;
-    width: 720px;
+    width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 425px) {
   .header {
-    margin-left: 16px;
-    margin-right: 16px;
-    width: 288px;
-    height: 36px;
+    width: calc(100% - 32px);
     padding-top: 20px;
   }
 }
