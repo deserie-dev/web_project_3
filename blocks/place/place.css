@@ -43,7 +43,7 @@
   .place {
     grid-gap: 32px;
     width: 100%;
-    margin-bottom: 49px;
+    margin-bottom: 48px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(auto, 1fr);
     grid-template-areas:

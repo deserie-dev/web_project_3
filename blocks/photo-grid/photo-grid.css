@@ -34,8 +34,8 @@
     grid-template-columns: 100%;
     grid-template-rows: repeat(12, 1fr);
     gap: 12px;
-    /*max-width: calc(100% - 32px);*/
-    max-width: 288px;
+    max-width: calc(100% - 32px);
+    /*max-width: 288px;*/
     margin-top: 64px;
   }
 }
