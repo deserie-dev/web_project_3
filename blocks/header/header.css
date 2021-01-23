@@ -6,30 +6,36 @@
 
 .header {
   display: flex;
-  position: relative;
   justify-content: space-between;
-  min-height: 44px;
-  max-width: 984px;
-  margin: 34px auto 0px auto;
+  height: 44px;
+  width: 984px;
+  padding-top: 34px;
+  margin-left: 148px;
+  margin-right: 148px;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    /*width: calc(100% - 96px);*/
-    max-width: 928px;
+    margin-left: 48px;
+    margin-right: 48px;
+    width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    width: calc(100% - 48px);
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 720px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .header {
-    width: calc(100% - 32px);
-    min-height: 36px;
-    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 288px;
+    height: 36px;
+    padding-top: 20px;
   }
 }

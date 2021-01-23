@@ -3,8 +3,30 @@
 @import url("./__subtitle/cover__subtitle.css");
 
 .cover {
-  margin: 92px auto 0px auto;
-  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 92px;
   max-width: 1184px;
+  height: calc((100vw - 96px) / 1.6);
+  /*max-height: 740px;*/
   z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    height: calc(100vw / 1.6);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    margin-bottom: 64px;
+  }
 }

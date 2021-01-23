@@ -7,7 +7,6 @@
   line-height: 28px;
   width: 29px;
   margin-right: 18px;
-  align-self: flex-end;
   text-align: right;
   text-decoration: none;
 }
@@ -20,7 +19,7 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
