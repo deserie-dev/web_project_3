@@ -7,15 +7,12 @@
   margin-right: auto;
   margin-bottom: 92px;
   max-width: 1184px;
-  height: calc((100vw - 96px) / 1.6);
-  /*max-height: 740px;*/
   z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
-    height: calc(100vw / 1.6);
   }
 }
 
