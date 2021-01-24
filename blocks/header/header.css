@@ -13,8 +13,6 @@
   margin-right: auto;
   width: calc(100% - 296px);
   max-width: 984px;
-  /*width: calc(100% - 96px);
-  width: 984px;*/
 }
 
 @media screen and (max-width: 1024px) {

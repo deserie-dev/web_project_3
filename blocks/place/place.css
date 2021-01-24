@@ -38,10 +38,11 @@
 @media screen and (max-width: 425px) {
   .place {
     row-gap: 32px;
+    width: 100%;
     margin-bottom: 48px;
-    grid-template-columns: auto;
-    /*grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(auto, 1fr);*/
+    /*grid-template-columns: auto;*/
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
     grid-template-areas:
       "place__title"
       "place__image"
