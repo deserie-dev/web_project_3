@@ -1,15 +1,11 @@
 .place__image {
-  /*max-width: 460px;*/
+  max-width: 460px;
   width: calc(100% * (460 / 484));
-  max-height: 460px;
-  width: 100%;
   grid-area: place__image;
 }
 
 @media screen and (max-width: 425px) {
   .place__image {
-    /*max-width: 320px;
-    max-height: 320px;*/
     width: 100%;
   }
 }
