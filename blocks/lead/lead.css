@@ -5,7 +5,7 @@
 
 .lead {
   max-width: 984px;
-  width: calc(100% - 296px);
+  width: calc(100% * (984 / 1280));
   text-align: center;
   margin: 58px auto 0px auto;
   padding: 0px;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1024px) {
   .lead {
-    width: calc(100% - 96px);
+    width: calc(100% * (928 / 1024));
     margin-top: 50px;
     /*padding: 0px 48px 0px 48px;*/
   }
